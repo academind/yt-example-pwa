@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #521751;
+  margin-bottom: 36px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: white;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+  color: #fa923f;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #ccc;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.card__image img {
+  max-width: 100%;
+}
+
+.card__content, .card__details {
+  padding: 10px 5%;
+  transition: opacity 0.3s ease-out;
+}
+
+.card__details {
+  display: none;
+  opacity: 0;
+}

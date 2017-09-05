@@ -1,0 +1,17 @@
+{
+  "name": "example-pwa",
+  "version": "1.0.0",
+  "description": "A simple example PWA with an app-manifest and precaching",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8081"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "Maximilian Schwarzmüller",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
