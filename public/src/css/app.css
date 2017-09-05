@@ -37,7 +37,7 @@ body, html {
 }
 
 .card__content, .card__details {
-  padding: 10px 5%;
+  padding: 0 5%;
   transition: opacity 0.3s ease-out;
 }
 
